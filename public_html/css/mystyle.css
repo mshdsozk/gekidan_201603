@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015/10/11, 14:07:20
+    Author     : masahides
+*/
+
+body {
+    font-size: 75%;
+    line-height: 2;
+    color: #333333;
+    background-color: #525252;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#container {
+    width: 80%;
+    min-height: 431px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+#header {
+    background-image: url(../img/header_bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 10px;
+    background-size: auto 431px;
+    height: 431px;
+    width: 80%;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.4);
+}
