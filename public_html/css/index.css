@@ -44,13 +44,23 @@ footer {
     bottom:0;
 }
 
+small {
+    font-size: 0.2em;
+}
+
 #logo {
     width: 50%; 
     max-width: 460px;
     height: auto; 
-    margin: 80px;
+    margin-top: 80px;
+}
+
+#title {
+    margin-top: 38px;
+    font-size: 1.75em;
 }
 
 #information {
+    font-size: 1em;
     margin-top: 40px;
 }
