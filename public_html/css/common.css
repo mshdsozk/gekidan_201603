@@ -4,17 +4,15 @@
     Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.
 */
 
-header {
-    background-color: rgba(255,255,255,0.8);
-    text-align: center;
-    width: 100%;
-    position:absolute;
-    top: 0;
+@font-face {
+    font-family: makinas;
+    src: url(../fonts/makinas/MAKINAS.otf);
 }
 
 html, body {
     width: 100%;
     height: 100%;
+    min-height: 720px;
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -35,19 +33,44 @@ body {
     background-size: 100%;
     margin: 0;  
     padding: 0;
-    padding-top: 22px;
     text-align: center;
+    font-family: 'makinas';
+    text-shadow:
+        -1.5px -1.5px white,
+        1.5px -1.5px white,
+        -1.5px 1.5px white,
+        1.5px 1.5px white;
+}
+
+#lean_overlay  {
+    position: fixed; z-index:100;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: none;
+}
+
+.pop-over {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+    display: none;
 }
 
 #container {
     background: #FFFFFF;
     width: 80%;
-    max-width: 720px;
+    /*width: 1024px;*/
+    max-width: 1024px;
     height: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 0px;
-    position:relative
+    margin-top: auto;
+    position:relative;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
 }
 
 footer {
@@ -59,5 +82,50 @@ footer {
 
 small {
     font-size: 0.2em;
+    line-height: 1;
 }
 
+.wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.wrapper:before {
+    content: "";
+    display: block;
+    padding-top: 75%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link { 
+    color: #000000; 
+    text-decoration: none;
+}
+
+a:visited { 
+    color: #000000; 
+    text-decoration: none;
+}
+
+a:hover { 
+    color: #FFFFFF; 
+    text-decoration: none;
+    text-shadow:
+        -1.5px -1.5px black,
+        1.5px -1.5px black,
+        -1.5px 1.5px black,
+        1.5px 1.5px black;
+}
+
+a:active {
+    color:#000000; 
+    text-decoration: none;
+}
+
+img.small-logo {
+    height: 60px;
+    width: auto;
+}

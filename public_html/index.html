@@ -5,31 +5,93 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/lib/bootstrap-responsive.min.css">
         <link rel="stylesheet" type="text/css" href="css/common.css">
         <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script type="text/javascript" src="js/lib/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="js/lib/jquery.leanModal.min.js"></script>
+        <script type="text/javascript" src="js/lib/jQuery.fontFlex.js"></script>
+        <script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
         <link rel="shortcut icon" href="img/static/favicon.ico" />
         <title>世界一陽気なカフェ</title>
     </head>
-    <body class="no-thank-yu">
-        <header>
-            test
-        </header>
+    <body>
         <div id="container">
-            <img src="img/static/logo.jpg" alt="logo.jpg" id="logo">
-            <h1 id="title">
-                世界一陽気なカフェ
-            </h1>
-            <p id="information">
-                特設サイト工事中<br>
-                11月末リリース予定
-            </p>
-            <footer>
-                <p><small>Copyright (C) 2015 Gekidan-Degoba <wbr>All Rights Reserved.</small></p>
-                <p><small>"<a href="https://commons.wikimedia.org/wiki/File:Brown_cup_of_coffee.jpg#/media/File:Brown_cup_of_coffee.jpg">Brown cup of coffee</a>" by <a href="//commons.wikimedia.org/wiki/User:DocteurCosmos" title="User:DocteurCosmos">DocteurCosmos</a> - <span class="int-own-work" lang="ja">投稿者自身による作品</span>. Licensed under <a href="http://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC 表示 3.0</a> via <a href="https://commons.wikimedia.org/wiki/">ウィキメディア・コモンズ</a>.</small></p>
+            <div class="wrapper">
+                <div id="main-menu">
+                    <section class="inside-menu">
+                        <p id="title" >世界一陽気な<wbr>カフェ</p>
+                        <nav>
+                            <ul style="list-style-type: none">
+                                <li><a rel="leanModal" href="#menu">Menu</a></li>
+                                <li><a rel="leanModal" href="#casts">Casts</a></li>
+                                <li><a rel="leanModal" href="#access">Access</a></li>
+                                <li><a rel="leanModal" href="#contact">Contact us</a></li>
+                            </ul>
+                        </nav>
+                        <article>
+                            <p>
+                                Mar.06.2016 on Perform!
+                            </p>
+                        </article>
+                    </section>
+                </div>
+            </div>
+            <!--Twitter-->
+<!--            <div id="twitter">
+            <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/degoba_act_2016" data-widget-id="660428446674214913">@degoba_act_2016</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>-->
+            <!--/Twitter-->
+            <footer>    
+                <img src="img/static/logo_small.jpg" alt="logo" class="small-logo">
+                <p><small>
+                        Copyright (C) 2015 Gekidan-Degoba <wbr>All Rights Reserved.
+                    </small></p>
             </footer>
         </div> <!-- /container -->
+        <!--menu-->
+        <div id="menu" class="pop-over">
+            <article>   
+                <h1>Story</h1>
+                <p>Under construction...</p>
+            </article>
+        </div>
+        <!--staffs-->
+        <div id="casts" class="pop-over">
+            <article>
+                <h1>Characters</h1>
+                <p>Under construction...</p>
+            </article>
+        </div>
+        <!--Access-->
+        <div id="access" class="pop-over">
+            <article>
+                <h1>Access</h1>
+                <h3>公演日</h3>
+                <p>2016年3月6日(予定)</p>
+                <h3>会場</h3>
+                <p>長野県茅野市<br>茅野市民館</p>
+                <div class="map-wrapper"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3228.008169932745!2d138.14977851644872!3d35.995666980122394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c572f2234faaf%3A0xf7f0b1fc940e1c72!2z6IyF6YeO5biC5rCR6aSo!5e0!3m2!1sja!2sjp!4v1446289549518" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </article>
+        </div>
+        <!--Contact-->
+        <div id="contact" class="pop-over">
+            <article>
+                <h1>Contact</h1>
+                <address>
+                <h3>e-Mail</h3>
+                    <p><a href="mailto:gekidan.degoba.act@gmail.com">gekidan.degoba.act@gmail.com</a></p>
+                    <h3>Tel</h3>
+                    <p>090-2496-4259 (内海)</p>
+                    <h3>Twitter</h3>
+                    <p><a href="https://twitter.com/degoba_act_2016">@degoba_act_2016</a></p>
+                </address>
+            </article>
+        </div>
     </body>
 </html>
