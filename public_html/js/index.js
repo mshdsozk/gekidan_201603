@@ -1,21 +1,31 @@
 /* 
-    Created on : 2015/10/17, 13:32:48
-    Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.
-*/
+ Created on : 2015/10/17, 13:32:48
+ Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.
+ */
 
-$(function() {
-  // All elements
-  $('section.inside-menu>nav').fontFlex(10, 48, 30);
-  $('section.inside-menu p').fontFlex(10, 48, 30);
-  $('p').fontFlex(10, 48, 30);
- 
-  // H1 only
-  $('#title').fontFlex(25, 80, 16); 
+$(function () {
+    // All elements
+    $('section.inside-menu>nav').fontFlex(10, 48, 30);
+    $('section.inside-menu p').fontFlex(10, 48, 30);
+    $('p').fontFlex(10, 48, 30);
+
+    // H1 only
+    $('#title').fontFlex(25, 80, 16);
 });
 
-$(function() {
-  $( 'a[rel*=leanModal]').leanModal({
-    top: 50,
-    overlay : 0.7,
-  });
+$(function () {
+    $('a[rel*=leanModal]').leanModal({
+        top: 50,
+        overlay: 0.7,
+    });
+});
+
+$(window).on('open:leanModal', function () {
+    console.log('open!');
+    $("body").css("overflow", "hidden");
+});
+
+$(window).on('close:leanModal', function () {
+    console.log('closed!');
+    $("body").css("overflow", "auto");
 });
