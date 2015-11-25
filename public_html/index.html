@@ -18,19 +18,25 @@
         <link rel="shortcut icon" href="img/static/favicon.ico" />
         <title>世界一陽気なカフェ</title>
         <script>
-                    (function (i, s, o, g, r, a, m) {
-                    i['GoogleAnalyticsObject'] = r;
-                            i[r] = i[r] || function () {
+            (function () {
+                var ua = navigator.userAgent.toUpperCase();
+                if ((ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1))) {
+                    location.href = 'sp/';
+                }
+            }());
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
                     (i[r].q = i[r].q || []).push(arguments)
-                    }, i[r].l = 1 * new Date();
-                            a = s.createElement(o),
-                            m = s.getElementsByTagName(o)[0];
-                            a.async = 1;
-                            a.src = g;
-                            m.parentNode.insertBefore(a, m)
-                    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-                    ga('create', 'UA-69628465-1', 'auto');
-                    ga('send', 'pageview');
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-69628465-1', 'auto');
+            ga('send', 'pageview');
         </script>
     </head>
     <body>

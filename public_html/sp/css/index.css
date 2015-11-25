@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* 
+    Created on : 2015/10/17, 13:32:48
+    Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.
+*/
+
+@font-face {
+    font-family: pigmo00;
+    src: url(../../fonts/pigmo00/Pigmo-00.otf);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    width: 100%;
+    padding: 0px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#main-menu {
+    width: 100%;
+    height: auto;
+    background-image: url(../../img/cafeAndLate.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+}
+
+#title {
+    padding-top: 0.7em;
+    font-family: 'pigmo00';
+    font-size: 1.75em;
+}
+
+section.inside-menu {
+    width: 100%;
+    height: auto;
+}
+
+section.inside-menu>nav {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    font-size: 3em;
+    text-align: right;
+}
+
+.pop-over {
+    background-color: #FFFFFF;
+    width: 70%;
+    min-height: 50%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'makinas';
+    text-shadow:
+        -1.5px -1.5px white,
+        1.5px -1.5px white,
+        -1.5px 1.5px white,
+        1.5px 1.5px white;
+}
+
+h3 {
+    font-family: 'makinas';
+    text-shadow:
+        -1.5px -1.5px white,
+        1.5px -1.5px white,
+        -1.5px 1.5px white,
+        1.5px 1.5px white;
+}
+
+p {
+    font-family: 'makinas';
+    text-shadow:
+        -1.5px -1.5px white,
+        1.5px -1.5px white,
+        -1.5px 1.5px white,
+        1.5px 1.5px white;
+    font-size: 1em;
+}
+
+#menu dt{
+    display:block;
+    width:100%;
+    height:auto;
+    line-height:50px;
+    text-align:center;
+    border:#666 1px solid;
+    cursor:pointer;
+    padding-right:15px;
+    background: #80552c;
+    background: -moz-linear-gradient(-45deg,  #80552c 0%, #5b3723 36%, #23110b 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#80552c), color-stop(36%,#5b3723), color-stop(100%,#23110b));
+    background: -webkit-linear-gradient(-45deg,  #80552c 0%,#5b3723 36%,#23110b 100%);
+    background: -o-linear-gradient(-45deg,  #80552c 0%,#5b3723 36%,#23110b 100%);
+    background: -ms-linear-gradient(-45deg,  #80552c 0%,#5b3723 36%,#23110b 100%);
+    background: linear-gradient(135deg,  #80552c 0%,#5b3723 36%,#23110b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80552c', endColorstr='#23110b',GradientType=1 );
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#menu dd{
+    background:white;
+    width:100%;
+    height:auto;
+    line-height:50px;
+    text-align:center;
+    border:#666 1px solid;
+    display:none;
+}
+
+img.small-logo {
+    height: 30px;
+    width: auto;
+}
+
+#content{ 
+    width:100%; 
+    height:auto;
+    padding-bottom:80px;
+}
+
+footer {
+       width:100%; 
+       height:80px;
+       position:absolute;
+       bottom:0;
+}
