@@ -1,7 +1,7 @@
 @charset "UTF-8";
-/* 
-    Created on : 2015/10/17, 13:32:48
-    Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.
+/*
+Created on : 2015/10/17, 13:32:48
+Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.
 */
 
 @font-face {
@@ -81,6 +81,18 @@ p {
     font-size: 2em;
 }
 
+#casts-detail {
+    margin: 0 auto;
+    text-align: left;
+    width: 40%;
+    font-family: 'makinas';
+    text-shadow:
+        -1.5px -1.5px white,
+        1.5px -1.5px white,
+        -1.5px 1.5px white,
+        1.5px 1.5px white;
+}
+
 iframe {
     width: 80%;
     height: auto;
@@ -95,4 +107,3 @@ iframe {
     padding: 30px;
     border: 3px black;
 }
-
