@@ -51,6 +51,8 @@ section.inside-menu>nav {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     padding: 20px;
+    overflow-y: auto;
+    max-height: 90%
 }
 
 h1 {
