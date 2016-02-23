@@ -139,6 +139,18 @@ p {
     line-height: 1.0em;
 }
 
+#goods-detail {
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'makinas';
+    text-shadow:
+        -1.5px -1.5px white,
+        1.5px -1.5px white,
+        -1.5px 1.5px white,
+        1.5px 1.5px white;
+    line-height: 1.0em;
+}
+
 img.small-logo {
     height: 30px;
     width: auto;
