@@ -37,9 +37,9 @@ Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.-->
             })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
             ga('create', 'UA-69628465-1', 'auto');
             ga('send', 'pageview');
-            $(function(){
-               $("#greeting-href").click()
-            });
+//            $(function(){
+//               $("#greeting-href").click()
+//            });
         </script>
     </head>
     <body>
@@ -67,6 +67,9 @@ Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.-->
                     </section>
                 </div>
             </div>
+        <div id="notification" style="width: 100%; margin-top: 8px;">
+            <a id="greeting-href" rel="leanModal" href="#greeting">大切なお知らせ</a>
+        </div>
             <!--Twitter-->
             <div id="twitter">
                 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/degoba_act_2016" data-widget-id="660428446674214913">@degoba_act_2016さんのツイート</a>
@@ -92,7 +95,6 @@ Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.-->
                     </small></p>
             </footer>
         </div> <!-- /container -->
-        <a id="greeting-href" rel="leanModal" href="#greeting" style="display: none">test</a>
         <div id="greeting" class="pop-over">
             <article>
                 <h1>活動休止のご挨拶</h1>

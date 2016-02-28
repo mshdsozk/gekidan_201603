@@ -36,9 +36,9 @@
             })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
             ga('create', 'UA-69628465-1', 'auto');
             ga('send', 'pageview');
-            $(function () {
-                $("#greeting-href").click()
-            });
+//            $(function () {
+//                $("#greeting-href").click()
+//            });
         </script>
     </head>
     <body>
@@ -56,6 +56,9 @@
                         </section>
                     </div>
                 </div>
+        <div id="notification" style="width: 100%;">
+            <a id="greeting-href" rel="leanModal" href="#greeting">大切なお知らせ</a>
+        </div>
                 <dl id="menu">
                     <dt>Menu</dt>
                     <dd>
@@ -212,7 +215,6 @@
                     </small></p>
             </footer>
         </div> <!-- /container -->
-        <a id="greeting-href" rel="leanModal" href="#greeting" style="display: none">test</a>
         <div id="greeting" class="pop-over">
             <article style="width: 100%;">
                 <h1>活動休止の<br>ご挨拶</h1>
