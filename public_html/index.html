@@ -37,6 +37,9 @@ Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.-->
             })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
             ga('create', 'UA-69628465-1', 'auto');
             ga('send', 'pageview');
+            $(function(){
+               $("#greeting-href").click()
+            });
         </script>
     </head>
     <body>
@@ -50,6 +53,7 @@ Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.-->
                                 <li><a rel="leanModal" href="#menu">Menu</a></li>
                                 <li><a rel="leanModal" href="#casts">Casts</a></li>
                                 <li><a rel="leanModal" href="#visual">Visual</a></li>
+                                <li><a rel="leanModal" href="#comic">Comic</a></li>
                                 <li><a rel="leanModal" href="#goods">Goods</a></li>
                                 <li><a rel="leanModal" href="#access">Access</a></li>
                                 <li><a rel="leanModal" href="#contact">Contact us</a></li>
@@ -88,6 +92,31 @@ Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.-->
                     </small></p>
             </footer>
         </div> <!-- /container -->
+        <a id="greeting-href" rel="leanModal" href="#greeting" style="display: none">test</a>
+        <div id="greeting" class="pop-over">
+            <article>
+                <h1>活動休止のご挨拶</h1>
+                <div id="greeting-detail">
+                    前略<br>
+                    お客様へ<br>
+                    本日は劇団でごば10周年記念公演「世界一陽気なカフェ」をご観劇いただきまして、誠にありがとうございます。<br>
+                    <br>
+　皆様のご厚情にあずかり活動を続けてまいりましたが、ここ数年の活動実績が芳しくなく、また劇団員も不足していることから、<br>
+                    これからの劇団でごばのあり方を所属団員と話し合い重ねて参りました。<br>
+                    その結論として、本公演をもちまして、2017年度以降の活動を休止することと致しました。<br>
+　こちらの都合により、この様な形での発表となりますことを深くお詫び致しますと同時に、<br>
+                    これまでご愛顧賜りました皆様に心より感謝申し上げます。<br>
+                    <br>
+                    甚だ略儀ではございますが、活動休止のご挨拶を申し上げます 。<br>
+                    <br>
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　草々<br>
+                    <br>
+                    平成　28年　3月　5日<br>
+                    <br>
+　　劇団でごば<br>
+　　　　内海　堅<br></div>
+            </article>
+        </div>
         <!--menu-->
         <div id="menu" class="pop-over">
             <article>
@@ -155,7 +184,17 @@ Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.-->
         <div id="visual" class="pop-over">
             <article>
                 <h1>Poster</h1>
-                <p><img src="img/poster.jpg" alt="poster.jpg" style="width: 80%; height: auto;"></p>
+                <p>
+                    <img src="img/poster.jpg" alt="poster.jpg" style="width: 80%; height: auto;">
+                </p>
+            </article>
+        </div>
+        <div id="comic" class="pop-over">
+            <article>
+                <h1>Comic</h1>
+                <p>
+                    <img src="img/comic/20160227.jpg" alt="20160227.jpg">
+                </p>
             </article>
         </div>
         <div id="goods" class="pop-over">
@@ -166,7 +205,7 @@ Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.-->
                         <li>
                             <div style="text-align: center">
                                 マグカップ<br>
-                            <img align="top" src="img/goods/cup.png" alt="cup.png" style="width: 60%; height: auto;">
+                                <img align="top" src="img/goods/cup.png" alt="cup.png" style="width: 60%; height: auto;">
                             </div>
                             でごばのロゴがプリントされたマグカップ<br>
                             オフィスのお供に是非<br>
@@ -175,7 +214,7 @@ Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.-->
                         <li>
                             <div style="text-align: center">
                                 缶バッヂ<br>
-                            <!--<img align="top" src="img/goods/cup.png" alt="cup.png" style="width: 60%; height: auto;">-->
+                                <!--<img align="top" src="img/goods/cup.png" alt="cup.png" style="width: 60%; height: auto;">-->
                             </div>
                             過去公演のポスターなどをあしらった缶バッヂ<br>
                             さり気なくキャストが身に着けている<br>
@@ -184,7 +223,7 @@ Author     : Copyright (C) 2015 Gekidan-Degoba All Rights Reserved.-->
                         <li>
                             <div style="text-align: center">
                                 テーマソングCD<br>
-                            <!--<img align="top" src="img/goods/cup.png" alt="cup.png" style="width: 60%; height: auto;">-->
+                                <!--<img align="top" src="img/goods/cup.png" alt="cup.png" style="width: 60%; height: auto;">-->
                             </div>
                             今回の公演のテーマソングCD<br>
                             コーヒーと共に、あなたのリラックスタイムに是非<br>
