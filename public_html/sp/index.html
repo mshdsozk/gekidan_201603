@@ -36,9 +36,9 @@
             })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
             ga('create', 'UA-69628465-1', 'auto');
             ga('send', 'pageview');
-//            $(function () {
-//                $("#greeting-href").click()
-//            });
+            $(function () {
+                $("#thanks-href").click()
+            });
         </script>
     </head>
     <body>
@@ -237,7 +237,15 @@
                     平成　28年　3月　5日<br>
                     <br>
 　　劇団でごば<br>
-　　　　内海　堅<br></div>
+　　　　内海　堅<br></div></article></div>
+        <a id="thanks-href" rel="leanModal" href="#thanks" style="content: hidden"></a>
+        <div id="thanks" class="pop-over">
+            <article style="width: 100%;">
+                <h1 style="font-family: 'pigmo00';">ご観劇<br>ありがとう<br>ございました！</h1>
+                <div id="thanks-detail">
+                    おかげさまで、<br>無事に公演を終えました！<br>
+                    ご観劇くださった皆様、<br>本当にありがとうございました！<br>
+                </div>
             </article>
         </div>
     </body>
